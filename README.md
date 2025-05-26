@@ -1,7 +1,31 @@
- 👋 Hi, I’m @ajeetkartikay from india and currently i'm completing my garduation from IIIT KOTTAYAM with CSE BRANCH
- 👀 I’m interested in machine learning,app development and web development
- 🌱 I’m currently learning C LANGUAGE AND i had taken a course of complete web development bootcamp
- 💞️ I’m looking to collaborate on coding activity and coding competetion
- 📫 How to reach me: IF you are interested to contact me then kindly email me on my email-ajeetkartikay96@gmail.com
+###👋 Hi, I'm Ajeet Kartikay
 
+I'm currently pursuing my Bachelor's degree in Computer Science and Engineering at **IIIT Kottayam**, India.
+
+---
+
+🔍 Interests
+
+- 💡 Machine Learning  
+- 📱 App Development  
+- 🌐 Web Development
+
+---
+
+🚀 Currently Learning
+
+- 🖥️ C Language  
+- 🧑‍💻 Enrolled in "The Complete Web Development Bootcamp"  
+
+
+🤝 Looking to Collaborate On
+
+- 👨‍💻 Coding Projects  
+- 🏆 Programming Competitions  
+
+
+📫 Get in Touch
+
+If you're interested in collaborating or just want to connect, feel free to reach out via email:  
+📧 ajeetkartikay96@gmail.com
 
