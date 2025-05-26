@@ -1,10 +1,10 @@
-###👋 Hi, I'm Ajeet Kartikay
+### 👋 Hi, I'm Ajeet Kartikay
 
 I'm currently pursuing my Bachelor's degree in Computer Science and Engineering at **IIIT Kottayam**, India.
 
 ---
 
-🔍 Interests
+### 🔍 Interests
 
 - 💡 Machine Learning  
 - 📱 App Development  
@@ -12,20 +12,23 @@ I'm currently pursuing my Bachelor's degree in Computer Science and Engineering 
 
 ---
 
-🚀 Currently Learning
+### 🚀 Currently Learning
 
 - 🖥️ C Language  
 - 🧑‍💻 Enrolled in "The Complete Web Development Bootcamp"  
 
+---
 
-🤝 Looking to Collaborate On
+### 🤝 Looking to Collaborate On
 
 - 👨‍💻 Coding Projects  
 - 🏆 Programming Competitions  
 
+---
 
-📫 Get in Touch
+### 📫 Get in Touch
 
 If you're interested in collaborating or just want to connect, feel free to reach out via email:  
-📧 ajeetkartikay96@gmail.com
+📧 **ajeetkartikay96@gmail.com**
+
 
