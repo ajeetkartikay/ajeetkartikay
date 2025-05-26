@@ -31,7 +31,7 @@ I'm currently pursuing my Bachelor's degree in Computer Science and Engineering 
 
 If you're interested in collaborating or just want to connect, feel free to reach out via email:  
 📧 **ajeetkartikay96@gmail.com**
-ompetitions  
+ 
 
 ---
 
