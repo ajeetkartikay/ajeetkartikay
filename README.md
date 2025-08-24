@@ -7,7 +7,6 @@ I'm currently pursuing my Bachelor's degree in Computer Science and Engineering 
 ### 🔍 Interests
 
 - 💡 Artificial Intelligence & Machine Learning  
-- 📱 App Development  
 - 🌐 Web Development
 
 ---
@@ -15,7 +14,7 @@ I'm currently pursuing my Bachelor's degree in Computer Science and Engineering 
 ### 🚀 Currently Learning
 
 - 🐍 Python Programming  
-- 🤖 AI/ML Concepts  
+- 🤖 AI, ML Concepts  
 - 📚 Continuously exploring new technologies and development frameworks  
 
 ---
