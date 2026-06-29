@@ -81,7 +81,22 @@ Multi-agent OpenEnv environment where a Chief of Staff routes work across four A
 🔗 [Live Demo](https://kartik1230-round2-1.hf.space/ui/) · [Blog](https://github.com/ajeetkartikay/AutoDataLab-meta/blob/main/Blog.md)
 
 > *Meta × Scaler OpenEnv Hackathon — Grand Finalist (Round 2)*
+---
 
+### 🚁 [Aerial GCP Pose Estimation — Skylark Drones Assignment](https://github.com/ajeetkartikay/Skylark_Drones_Assignment)
+
+Developed a multi-task computer vision pipeline for aerial drone imagery that simultaneously predicts **pixel-precise Ground Control Point (GCP) coordinates** and **marker shape classification** using a ResNet-50 backbone.
+
+**Highlights**
+- 🎯 Built a multi-task architecture combining **heatmap-based keypoint localization** with **shape classification** (Cross, Square, L-Shaped).
+- 📈 Improved localization by replacing direct coordinate regression with **Gaussian heatmaps + soft-argmax decoding**, achieving over **40× improvement in PCK@25** compared to the regression baseline.
+- 🧠 Identified and fixed a zero-gradient training bug by introducing joint optimization with **MSE + CrossEntropy** loss, achieving **100% validation Macro F1** for shape classification.
+- ⚡ Optimized the training pipeline for **CPU-only environments** through backbone freezing, warm-start initialization, and efficient multitask learning.
+- 🚀 Deployed an interactive inference demo on **Hugging Face Spaces** with automated checkpoint management.
+
+**Stack:** Python · PyTorch · ResNet-50 · OpenCV · Computer Vision · Multi-Task Learning · Hugging Face Spaces · Docker
+
+🔗 **Live Demo:** https://huggingface.co/spaces/Ajeetkartik/skylark-gcp-pose-estimation-multitask
 ---
 
 ### 🌐 [Multilingual Retrieval-Augmented QA System](https://github.com/ajeetkartikay)
