@@ -72,6 +72,21 @@ I build **AI/ML systems that ship** — focused on Reinforcement Learning enviro
 
 ## 🚀 Featured Projects
 
+### ⚙️ [minic — x86-64 Compiler from Scratch (C++17)](https://github.com/ajeetkartikay/minic)
+
+A compiler for a small imperative language that generates **x86-64 assembly** and produces native Linux executables via GCC. Every stage is written by hand, with no parser generators and no LLVM.
+
+**Highlights**
+- 🔤 Hand-written **lexer** and **recursive-descent parser** that builds an AST with correct operator precedence and associativity.
+- 🧪 **Semantic analysis** with scoped symbol tables that catches undeclared variables, redeclarations and scope errors, reported with line numbers.
+- ⚡ **AST optimisation pass**: constant folding, algebraic simplification and dead-branch elimination. Runtime traps such as division by zero are left intact.
+- 🖥️ Code generation that follows the **System V AMD64 ABI**: stack frames, 16-byte call alignment, and `cqto`/`idivq` division.
+- ✅ **Differential test suite** that compiles each program at `-O0` and `-O1` and checks the outputs match, plus error-case tests (19/19 passing).
+
+**Stack:** C++17 · x86-64 Assembly · GCC · Linux · Make · Bash
+
+---
+
 ### 🤖 [AutoDataLab++ — Multi-Agent OpenEnv RL Environment](https://github.com/ajeetkartikay/AutoDataLab-meta)
 
 Multi-agent OpenEnv environment where a Chief of Staff routes work across four AI specialists — Data Analyst, Finance, Strategy, HR — to complete CEO briefing tasks. GRPO-trained Qwen2.5-1.5B policy with optional RAG over company memory.
