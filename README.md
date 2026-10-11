@@ -1,8 +1,8 @@
-<h1 align="center">👋 Hi, I'm Ajeet Kumar</h1>
+<h1 align="center">Hi, I'm Ajeet Kumar</h1>
 
 <p align="center">
-  <b>Machine Learning Engineer · AI Systems · Reinforcement Learning · NLP</b><br>
-  Computer Science Undergraduate at IIIT Kottayam · India
+  Machine Learning Engineer · AI Systems · Reinforcement Learning · NLP<br>
+  Computer Science undergrad at IIIT Kottayam, India
 </p>
 
 <p align="center">
@@ -14,19 +14,19 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
-I build **AI/ML systems that ship** — focused on Reinforcement Learning environments, multi-agent LLM orchestration, and retrieval-augmented systems.
+I like building things end to end, from training a model to deploying it, and lately also going lower in the stack to see how code actually runs on the machine.
 
-- 🎯 **Grand Finalist** at the **Meta × Scaler OpenEnv Hackathon** (52,000+ participants)
-- 🤖 Currently building multi-agent RL environments where small LLMs learn to route work across specialists
-- 🔍 Past work spans cross-lingual RAG (English / Hindi / Kannada / Malayalam), agent-based system design, and ESG analytics
-- 🏆 2nd Runner-up at Hackzilla National Hackathon (IIIT Sonepat)
-- 📚 200+ DSA problems solved · CGPA 7.8
+- Grand Finalist at the Meta × Scaler OpenEnv Hackathon (52,000+ participants)
+- Working on multi-agent RL environments where small LLMs learn to route work across specialists
+- Previously built cross-lingual RAG (English, Hindi, Kannada, Malayalam), agent-based systems and ESG analytics
+- 2nd Runner-up at Hackzilla National Hackathon (IIIT Sonepat)
+- 200+ DSA problems solved, CGPA 7.8
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Languages**
 
@@ -70,76 +70,75 @@ I build **AI/ML systems that ship** — focused on Reinforcement Learning enviro
 
 ---
 
-## 🚀 Featured Projects
+## Projects
 
-### ⚙️ [minic — x86-64 Compiler from Scratch (C++17)](https://github.com/ajeetkartikay/minic)
+### [minic: a compiler from scratch in C++](https://github.com/ajeetkartikay/minic)
 
-A compiler for a small imperative language that generates **x86-64 assembly** and produces native Linux executables via GCC. Every stage is written by hand, with no parser generators and no LLVM.
+A small compiler for a toy imperative language. It reads source code, builds an AST, runs a few optimisations and writes out x86-64 assembly, which GCC turns into a normal Linux executable. No parser generators and no LLVM, just plain C++17.
 
-**Highlights**
-- 🔤 Hand-written **lexer** and **recursive-descent parser** that builds an AST with correct operator precedence and associativity.
-- 🧪 **Semantic analysis** with scoped symbol tables that catches undeclared variables, redeclarations and scope errors, reported with line numbers.
-- ⚡ **AST optimisation pass**: constant folding, algebraic simplification and dead-branch elimination. Runtime traps such as division by zero are left intact.
-- 🖥️ Code generation that follows the **System V AMD64 ABI**: stack frames, 16-byte call alignment, and `cqto`/`idivq` division.
-- ✅ **Differential test suite** that compiles each program at `-O0` and `-O1` and checks the outputs match, plus error-case tests (19/19 passing).
+- Hand-written lexer and recursive-descent parser, with operator precedence handled in the grammar
+- A semantic check for undeclared variables, redeclarations and scope errors, with line numbers in the error messages
+- Constant folding, algebraic simplification and dead-branch removal, careful not to fold away things like division by zero
+- Code generation that follows the System V calling convention, so the output can call `printf` directly
+- Tests run every program at `-O0` and `-O1` and check the outputs match
 
-**Stack:** C++17 · x86-64 Assembly · GCC · Linux · Make · Bash
-
----
-
-### 🤖 [AutoDataLab++ — Multi-Agent OpenEnv RL Environment](https://github.com/ajeetkartikay/AutoDataLab-meta)
-
-Multi-agent OpenEnv environment where a Chief of Staff routes work across four AI specialists — Data Analyst, Finance, Strategy, HR — to complete CEO briefing tasks. GRPO-trained Qwen2.5-1.5B policy with optional RAG over company memory.
-
-**My contributions:** HR/Communications subenvironment with blended grader (45% structure + 45% tone + 10% audience), deployment to HF Spaces (Docker + Git LFS), validation infrastructure (live HTTP smoke tests, GitHub Actions CI, session capping), README + technical writeup.
-
-🔗 [Live Demo](https://kartik1230-round2-1.hf.space/ui/) · [Blog](https://github.com/ajeetkartikay/AutoDataLab-meta/blob/main/Blog.md)
-
-> *Meta × Scaler OpenEnv Hackathon — Grand Finalist (Round 2)*
----
-
-### 🚁 [Aerial GCP Pose Estimation — Skylark Drones Assignment](https://github.com/ajeetkartikay/Skylark_Drones_Assignment)
-
-Developed a multi-task computer vision pipeline for aerial drone imagery that simultaneously predicts **pixel-precise Ground Control Point (GCP) coordinates** and **marker shape classification** using a ResNet-50 backbone.
-
-**Highlights**
-- 🎯 Built a multi-task architecture combining **heatmap-based keypoint localization** with **shape classification** (Cross, Square, L-Shaped).
-- 📈 Improved localization by replacing direct coordinate regression with **Gaussian heatmaps + soft-argmax decoding**, achieving over **40× improvement in PCK@25** compared to the regression baseline.
-- 🧠 Identified and fixed a zero-gradient training bug by introducing joint optimization with **MSE + CrossEntropy** loss, achieving **100% validation Macro F1** for shape classification.
-- ⚡ Optimized the training pipeline for **CPU-only environments** through backbone freezing, warm-start initialization, and efficient multitask learning.
-- 🚀 Deployed an interactive inference demo on **Hugging Face Spaces** with automated checkpoint management.
-
-**Stack:** Python · PyTorch · ResNet-50 · OpenCV · Computer Vision · Multi-Task Learning · Hugging Face Spaces · Docker
-
-🔗 **Live Demo:** https://huggingface.co/spaces/Ajeetkartik/skylark-gcp-pose-estimation-multitask
----
-
-### 🌐 [Multilingual Retrieval-Augmented QA System](https://github.com/ajeetkartikay)
-
-Cross-lingual question-answering system using multilingual sentence embeddings + FAISS for semantic retrieval. Extractive grounded answering across **English, Hindi, Kannada, Malayalam**. CPU-efficient pipeline optimized for low-resource environments.
-
-**Stack:** Python · Sentence-Transformers · FAISS · Multilingual NLP
+Stack: C++17, x86-64 assembly, GCC, Linux, Make
 
 ---
 
-### 🧠 [AI Agent System Architecture](https://github.com/ajeetkartikay)
+### [AutoDataLab++: multi-agent OpenEnv RL environment](https://github.com/ajeetkartikay/AutoDataLab-meta)
 
-LLM-driven multi-agent system with Supervisor, Search, Chat, and Worker agents for intent routing, retrieval, and API execution. RAG pipeline with Pinecone for context-aware responses. Conversational memory enables stateful actions like search and booking.
+A multi-agent environment where a Chief of Staff agent routes work across four specialists (Data Analyst, Finance, Strategy, HR) to complete CEO briefing tasks. The policy is a GRPO-trained Qwen2.5-1.5B, with optional RAG over company memory.
 
-**Stack:** FastAPI · LangChain · Gemini API · Pinecone · RAG · REST APIs
+My part: the HR/Communications sub-environment and its grader (45% structure, 45% tone, 10% audience), deployment to HF Spaces with Docker and Git LFS, the validation setup (live HTTP smoke tests, GitHub Actions CI, session capping), and the README and write-up.
 
----
+[Live demo](https://kartik1230-round2-1.hf.space/ui/) · [Blog](https://github.com/ajeetkartikay/AutoDataLab-meta/blob/main/Blog.md)
 
-## 🎯 Current Focus
-
-- 🤖 **Reinforcement Learning** for LLM-based agents — reward design, OpenEnv APIs, multi-agent orchestration
-- 🔍 **RAG systems at scale** — retrieval evaluation, hybrid search, citation grounding
-- 🏗 **Production AI deployment** — Docker, FastAPI, HuggingFace Spaces, observability
-- 📚 Preparing for opportunities in ML / AI Engineering roles
+Grand Finalist (Round 2), Meta × Scaler OpenEnv Hackathon
 
 ---
 
-## 📊 GitHub Stats
+### [Aerial GCP pose estimation (Skylark Drones assignment)](https://github.com/ajeetkartikay/Skylark_Drones_Assignment)
+
+A multi-task computer vision model for drone images. From one ResNet-50 backbone it predicts where the Ground Control Point marker is, down to the pixel, and what shape it is (cross, square or L-shaped).
+
+- Started with direct coordinate regression, then switched to Gaussian heatmaps with soft-argmax decoding, which improved PCK@25 by more than 40×
+- Found and fixed a zero-gradient bug by training both heads together with MSE + cross-entropy loss; shape classification reached 100% validation macro F1
+- Made training workable on CPU by freezing the backbone and warm-starting from earlier checkpoints
+- Deployed an inference demo on Hugging Face Spaces
+
+Stack: Python, PyTorch, ResNet-50, OpenCV, Hugging Face Spaces, Docker
+
+[Live demo](https://huggingface.co/spaces/Ajeetkartik/skylark-gcp-pose-estimation-multitask)
+
+---
+
+### [Multilingual retrieval-augmented QA](https://github.com/ajeetkartikay)
+
+Question answering across English, Hindi, Kannada and Malayalam using multilingual sentence embeddings and FAISS for retrieval. Answers are extracted from the retrieved text, and the whole pipeline runs fine on a CPU.
+
+Stack: Python, Sentence-Transformers, FAISS
+
+---
+
+### [AI agent system](https://github.com/ajeetkartikay)
+
+An LLM-based multi-agent setup with supervisor, search, chat and worker agents that handle intent routing, retrieval and API calls. It uses RAG with Pinecone for context, and conversation memory so it can carry out multi-step things like search followed by booking.
+
+Stack: FastAPI, LangChain, Gemini API, Pinecone
+
+---
+
+## What I'm working on
+
+- RL for LLM agents: reward design, OpenEnv, multi-agent setups
+- Making RAG systems more reliable: retrieval evaluation, hybrid search, grounded citations
+- Systems and compilers in C++
+- Looking for ML / AI engineering and systems roles
+
+---
+
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ajeetkartikay&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170">
@@ -148,10 +147,4 @@ LLM-driven multi-agent system with Supervisor, Search, Chat, and Worker agents f
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajeetkartikay&theme=tokyonight&hide_border=true" height="170">
-</p>
-
----
-
-<p align="center">
-  <i>Open to ML / AI Engineering opportunities · Always learning</i>
 </p>
