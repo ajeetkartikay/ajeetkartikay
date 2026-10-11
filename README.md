@@ -113,7 +113,7 @@ Stack: Python, PyTorch, ResNet-50, OpenCV, Hugging Face Spaces, Docker
 
 ---
 
-### [Multilingual retrieval-augmented QA](https://github.com/ajeetkartikay)
+### [Multilingual retrieval-augmented QA](https://github.com/ajeetkartikay/multilingual-rag-msr)
 
 Question answering across English, Hindi, Kannada and Malayalam using multilingual sentence embeddings and FAISS for retrieval. Answers are extracted from the retrieved text, and the whole pipeline runs fine on a CPU.
 
